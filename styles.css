@@ -1,0 +1,68 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(109, 41, 226);
+    color: white;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 8px 15px;
+   font-size: 12px;
+   
+}
+
+/* Navigation Item Styling */
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* Logo */
+.nav-bar>.nav-item>.logo{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* List Items Styling */
+.list-items>ul{
+    display: flex;
+    gap: 15px;
+}
+.list-items>ul>li{
+    list-style: none;
+    cursor: pointer;
+}
+
+/* Main Menu List Items */
+.main-menu {
+    display: flex;
+    gap: 15px;
+    align-items: center; 
+    list-style: none;
+    cursor: pointer;
+}
+
+.signin{
+    background-color: white;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+.dropdown>select{
+    background-color: rgb(109, 41, 226);
+    color: white;
+    font-size: 12px;
+}
