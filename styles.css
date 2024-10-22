@@ -249,6 +249,7 @@ main {
 
 .bottom img {
     width: 100%;
+    height: auto;
 
 }
 
@@ -734,7 +735,6 @@ hr {
     }
 
     .footer {
-        padding: 15px;
         background-color: darkslateblue;
         text-align: center;
         color: white;
@@ -743,13 +743,14 @@ hr {
     .main-container {
         display: flex;
         text-align: left;
-        margin-bottom: 10px;
-        gap: 20px;
+        margin-bottom: 15px;
+        gap: 30 px;
+        padding: 0px 20px;
 
     }
 
     .main h3 {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
 
@@ -760,7 +761,7 @@ hr {
 
     .main ul li {
         margin: 5px 0;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     hr {
@@ -770,7 +771,7 @@ hr {
 
     .footer-bottom {
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 12px;
 
     }
 }
