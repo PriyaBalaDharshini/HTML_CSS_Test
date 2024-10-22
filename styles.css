@@ -248,3 +248,97 @@ left: 35%;
         margin-top: 10px;
         
     }
+
+    .explanation-section{
+        padding: 20px 80px;
+        display: flex;
+        gap: 30px;
+        background-color: rgba(220, 224, 224, 0.267);
+        
+    }
+    .explanation-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: left;
+    }
+
+    .explanation-left .para{
+        color: rgb(51, 185, 238);
+        font-weight: bold;
+        
+    }
+    .explanation-left .header{
+        color: rgb(34, 111, 114);
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .explanation-left .content{
+        line-height: 30px;
+    }
+
+    .explanation-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+    .explanation-right h5{
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .explanation-right .para-right{
+        line-height: 30px;
+    }
+
+    .bottom{
+        position: relative;
+        text-align: center; 
+        height: auto;
+    }
+
+    .bottom img{
+        width: 100%;
+        
+    }
+
+    .bottom div{
+        position: absolute;
+        top: 5%;
+        right: 35%;
+        padding-left: 40px;
+        text-align: left;
+        line-height: 30px;
+    }
+
+    .bottom div h3{
+        color: rgb(34, 111, 114);
+    }
+
+    .bottom div p{
+        font-size: 14px;
+        font-weight: bold;
+        margin: 7px 0px;
+    }
+
+    .bottom div ul{
+        list-style:decimal;
+        
+    }
+    .bottom div ul li{
+        font-size: 12px;
+    }
+
+    .bottom button {
+        background-color: rgb(90, 90, 220);
+        color: white;
+        padding: 6px 12px;
+        font-size: 12px;
+        border-radius: 10px;
+        border: none;
+    }
