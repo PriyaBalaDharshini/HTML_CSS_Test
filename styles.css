@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
    padding: 8px 15px;
    font-size: 12px;
-   
+   flex-wrap: wrap;
 }
 
 /* Navigation Item Styling */
@@ -27,6 +27,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    
 }
 
 /* Logo */
@@ -65,4 +66,78 @@ header{
     background-color: rgb(109, 41, 226);
     color: white;
     font-size: 12px;
+}
+
+/* Responsive Styles */
+
+/* For mobile devices */
+@media(max-width: 480px){
+    .nav-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-item .logo {
+        display: none;
+    }
+    .list-items {
+        order: 1;
+    }
+
+    .list-items > ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-item:nth-of-type(2) {
+        order: 2;
+        display: flex;
+        justify-content: center;
+    }
+    .main-menu.right {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+/* For tablets  */
+@media (max-width: 768px){
+    .nav-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-item .logo {
+        margin: 15px;
+    }
+    .list-items {
+        order: 1;
+    }
+
+    .list-items > ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-item:nth-of-type(2) {
+        order: 2;
+        display: flex;
+        justify-content: center;
+    }
+    .main-menu.right {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ 
 }
